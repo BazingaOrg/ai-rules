@@ -1,0 +1,52 @@
+{
+    "mcpServers": {
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ]
+        },
+        "github": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-github"
+            ]
+        },
+        "file-system": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/zhangyouxiu/Downloads/"
+            ]
+        },
+        "amap-maps": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@amap/amap-maps-mcp-server"
+            ],
+            "env": {
+                "AMAP_MAPS_API_KEY": "f4186fb67a765bca5e7b65b173e66b2e"
+            }
+        },
+        "context7": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@upstash/context7-mcp@latest"
+            ]
+        },
+        "chrome-devtools": {
+            "command": "npx",
+            "args": [
+                "chrome-devtools-mcp@latest"
+            ]
+        },
+        "FigmaMCP": {
+            "url": "http://127.0.0.1:3845/mcp"
+        }
+    }
+}
