@@ -14,6 +14,8 @@
 
 Inspired by [tjx666/ai-rules](https://github.com/tjx666/ai-rules)
 
+Inspired by [innei-template/smart-webapp-template](https://github.com/innei-template/smart-webapp-template)
+
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request 来完善这个项目。
